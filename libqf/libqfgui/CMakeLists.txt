@@ -122,14 +122,15 @@ qt6_add_translation(QM_FILES
 	libqfgui_uk_UA.ts
 	)
 
-qt6_add_lupdate(libqfgui TS_FILES
-	libqfgui_cs_CZ.ts
-	libqfgui_fr_FR.ts
-	libqfgui_nb_NO.ts
-	libqfgui_nl_BE.ts
-	libqfgui_pl_PL.ts
-	libqfgui_ru_RU.ts
-	libqfgui_uk_UA.ts
+qt6_add_translations(libqfgui
+    TS_FILES
+        libqfgui_cs_CZ.ts
+        libqfgui_fr_FR.ts
+        libqfgui_nb_NO.ts
+        libqfgui_nl_BE.ts
+        libqfgui_pl_PL.ts
+        libqfgui_ru_RU.ts
+        libqfgui_uk_UA.ts
 	)
 
 target_sources(libqfgui PRIVATE ${QM_FILES})
