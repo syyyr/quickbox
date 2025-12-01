@@ -21,10 +21,10 @@
 /// into shared libraries
 #if defined(QFCORE_BUILD_DLL)
 //#warning "EXPORT"
-#  define QFCORE_DECL_EXPORT Q_DECL_EXPORT
+#  define QFCORE_DECL_EXPORT
 #else
 //#warning "IMPORT"
-#  define QFCORE_DECL_EXPORT Q_DECL_IMPORT
+#  define QFCORE_DECL_EXPORT
 #endif
 
 #endif // QFCOREGLOBAL_H

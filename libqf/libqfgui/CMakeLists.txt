@@ -1,4 +1,4 @@
-add_library(libqfgui SHARED
+add_library(libqfgui
     src/action.cpp
     src/actiongroup.cpp
     src/checkbox.cpp

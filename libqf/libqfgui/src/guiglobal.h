@@ -5,10 +5,10 @@
 
 #if defined(QFGUI_BUILD_DLL)
 //#warning "EXPORT"
-#  define QFGUI_DECL_EXPORT Q_DECL_EXPORT
+#  define QFGUI_DECL_EXPORT
 #else
 //#warning "IMPORT"
-#  define QFGUI_DECL_EXPORT Q_DECL_IMPORT
+#  define QFGUI_DECL_EXPORT
 #endif
 
 #endif // QFGUIGLOBAL_H

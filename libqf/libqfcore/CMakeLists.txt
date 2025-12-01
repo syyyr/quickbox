@@ -1,4 +1,4 @@
-add_library(libqfcore SHARED
+qt_add_library(libqfcore
     src/core/collator.cpp
     src/core/exception.cpp
     src/core/logentrymap.cpp
